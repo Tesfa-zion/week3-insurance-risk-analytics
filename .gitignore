@@ -192,3 +192,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Ignore CSV, Excel, and large data files
+*.csv
+*.xlsx
+*.h5
+
+# Ignore DVC tracking files (optional if you want to version only via DVC)
+*.dvc
+.cache/
+data/
+models/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
